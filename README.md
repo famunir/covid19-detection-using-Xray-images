@@ -1,0 +1,5 @@
+# Detection of covid19 individuals using X-ray images
+
+With the increasing number of asymptomatic cases of covid19, detection of the infection using the X-ray images is fruitful for taking measures. The base model in this work is InceptionNetV3. Due to the scarcity of data, model is trained using data augmentation. However, one model is also trained to observe and explain the overfitting if data augmentation is not done. The data for x-ray images is taken from published data by [Dr. Joseph Cohen](https://github.com/ieee8023/covid-chestxray-dataset). In addition, if you have additional chest x-ray dataset, you can contribute to the aforementioned repo. Similarly, the dataset for healthy chest x-ray images is taken from Kaggle open source [dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
+
+## Note: Please feel free to use this model for testing and experimenting. But don't publish this as a research publication as modifications have to be made once more data is available and undeniable evidence is established for this experiment to be used by medical experts to diagnose covid19 cases.
